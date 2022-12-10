@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>365 movies</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <li><img src="365 movies.jpg" alt="logo" /></li>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV series</a></li>
+          <li><a href="#">Audio</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="abc1.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+          <img src="abc2.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+          <img src="abc3.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+          <img src="abc4.jpg" alt="" class="image" />
+        </div>
+        <div class="slide swiper-slide">
+          <img src="abc5.jpg" alt="" class="image" />
+        </div>
+      </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </section>
+    <section class="one">
+      <h1 class="heading">Popular in Action</h1>
+      <hr />
+      <div class="box-container">
+        <div class="box">
+          <img src="oop1.1.jpg" alt="" />
+          <h3>Last City Thriller, Mystery & Comedy.</h3>
+        </div>
+        <div class="box">
+          <img src="oop1.2.jpg" alt="" />
+          <h3>Tomb Raider Indian crime tragedy film.</h3>
+        </div>
+        <div class="box">
+          <img src="oop1.3.jpg" alt="" />
+          <h3>Japanese Marvel A Marvel Comics superhero team.</h3>
+        </div>
+        <div class="box">
+          <img src="oop1.4.jpg" alt="" />
+          <h3>Bohemian Japanese manga series written by Tsugumi.</h3>
+        </div>
+        <div class="box">
+          <img src="oop1.5.jpg" alt="" />
+          <h3>Justice League2003 American martial arts film.</h3>
+        </div>
+        <div class="box">
+          <img src="oop1.6.jpg" alt="" />
+          <h3>Borgia Indian action drama film.</h3>
+        </div>
+      </div>
+    </section>
+    <!-- second box -->
+    <section class="one">
+      <h1 class="heading">Popular in Drama</h1>
+      <hr />
+      <div class="box-container">
+        <div class="box">
+          <img src="oop2.1.jpg" alt="" />
+          <h3>The Nun 2016 ‧ Fantasy/Science Fiction.</h3>
+        </div>
+        <div class="box">
+          <img src="oop2.2.jpg" alt="" />
+          <h3>Avengers Indian crime tragedy film.</h3>
+        </div>
+        <div class="box">
+          <img src="oop2.3.jpg" alt="" />
+          <h3>Aquaman Thriller, Mystery & Comedy.</h3>
+        </div>
+        <div class="box">
+          <img src="oop2.4.jpg" alt="" />
+          <h3>TOmb Raider A Marvel Comics superhero team.</h3>
+        </div>
+        <div class="box">
+          <img src="oop2.5.jpg" alt="" />
+          <h3>FIGHTCLUB American martial arts film.</h3>
+        </div>
+        <div class="box">
+          <img src="oop2.6.jpg" alt="" />
+          <h3>Myaoekai Indian crime tragedy film.</h3>
+        </div>
+      </div>
+    </section>
+    <!-- third box -->
+    <section class="one">
+      <h1 class="heading">Popular in Sci-Fi</h1>
+      <hr />
+      <div class="box-container">
+        <div class="box">
+          <img src="oop3.1.jpg" alt="" />
+          <h3>Red Wars Chinese crime thriller.</h3>
+        </div>
+        <div class="box">
+          <img src="oop3.2.jpg" alt="" />
+          <h3>Florida Documentary eastern eravel.</h3>
+        </div>
+        <div class="box">
+          <img src="oop3.3.jpg" alt="" />
+          <h3>That Thing Thriller Romance Drama film.</h3>
+        </div>
+        <div class="box">
+          <img src="oop3.4.jpg" alt="" />
+          <h3>First Five South Korean Entertainment.</h3>
+        </div>
+        <div class="box">
+          <img src="oop3.5.jpg" alt="" />
+          <h3>Shrooms A Marvel Comics superhero team.</h3>
+        </div>
+        <div class="box">
+          <img src="oop3.6.jpg" alt="" />
+          <h3>Superman Indian comedy & Romance.</h3>
+        </div>
+      </div>
+    </section>
+    <footer class="foot">
+        <div class="logo">
+            <li><img src="365 movies.jpg" alt="logo" /></li>
+          </div>
+          <h4>Powered by 365 Entertaintment portal 2019.All Rights Reserved</h4>
+    </footer>
+    <script src="swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        //   pagination: {
+        //     el: ".swiper-pagination",
+        //     clickable: true,
+        //   },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
